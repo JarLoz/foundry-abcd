@@ -1,0 +1,46 @@
+{
+  "name": "foundry-abcd",
+  "title": "ABCD - Modern combat RPG system for FoundryVTT",
+  "description": "Many details here.",
+  "version": "0.0.1",
+  "templateVersion": 2,
+  "author": "JarLoz",
+  "scripts": [
+  ],
+  "esmodules": [
+  ],
+  "styles": [
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "system": "mysystem",
+      "module": "mysystem",
+      "path": "packs/monsters.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "system": "mysystem",
+      "module": "mysystem",
+      "path": "packs/items.db",
+      "entity": "Item"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "https://github.com/JarLoz/foundry-abcd",
+  "manifest": "https://your/hosted/system/repo/system.json",
+  "download": "https://your/packaged/download/archive.zip"
+}
