@@ -1,3 +1,3 @@
-# AdvancedBattleCommanderDundun - RPG system for FoundryVTT
+# AirBorne Commando Division - Military RPG for FoundryVTT
 
 WIP WIP WIP
